@@ -1,0 +1,12 @@
+{
+ "name": "lordofwar", 
+ "version": "0.0.2", 
+ "title": "lordofwar", 
+ "author": "safan", 
+ "contact": "", 
+ "homepage": "", 
+ "description": "Interface for selling weapons", 
+ "factorio_version": "0.14.1",
+ "dependencies": ["base >= 0.14.1"]
+
+}
