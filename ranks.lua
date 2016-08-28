@@ -1,5 +1,5 @@
 function getRank(credits)
-	if credits == nil  then return rank0
+	if credits == nil  then return "rank0"
 	elseif credits > 1000000000000 then return "rank30" 
 	elseif credits > 500000000000 then return "rank29" 
 	elseif credits > 250000000000 then return "rank28" 

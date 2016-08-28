@@ -99,7 +99,8 @@ function init()
 	global.lordofwar.exportWarehouses = global.lordofwar.exportWarehouses or {}
 	global.lordofwar.maxDueTech = global.lordofwar.maxDueTech or 0
 	global.lordofwar.maxDueEnt = global.lordofwar.maxDueEnt or 0
-	global.lordofwar.contractTimes = global.lordofwar.contractTimes or {}
+	global.lordofwar.valueMultiplier = global.lordofwar.valueMultiplier or 1
+	global.lordofwar.quantityMultiplier = global.lordofwar.quantityMultiplier or 1
 end
 
 --- init all players

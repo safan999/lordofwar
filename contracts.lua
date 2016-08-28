@@ -4,6 +4,7 @@ global.lordofwar.contracts
 	good
 	timer
 	quantity
+	value
 ]]--
 
 function addContract()
@@ -23,14 +24,18 @@ function addContract()
 			end
 			--game.players[1].print (good .. " chosen")
 			--get a semi random quantity
-			local quantityToOrder = 1 + math.floor(global.lordofwar.lastValue/global.lordofwar.goods[goodToOrder])
-			global.lordofwar.lastValue = global.lordofwar.lastValue * (1 + math.random()/5) -- LastValue increased with 0 - 20 %
+			--local quantityToOrder = 1 + math.floor(global.lordofwar.lastValue/global.lordofwar.goods[goodToOrder])
+			--global.lordofwar.lastValue = global.lordofwar.lastValue * (1 + math.random()/5) -- LastValue increased with 0 - 20 %
+			local quantityToOrder = 1 + math.floor(1000/global.lordofwar.goods[goodToOrder]*(1 + math.random()/5)*global.lordofwar.quantityMultiplier)
 						
 			-- set the timer
-			local timerToOrder=game.tick + 3600 -- 10 minutes 36000 = 10
+			local timerToOrder=game.tick + 36000 -- 10 minutes 36000 = 10
+			
+			-- set the value
+			local valueToOrder= math.floor(global.lordofwar.goods[goodToOrder]*quantityToOrder*global.lordofwar.valueMultiplier)
 			
 			-- add the contract
-			table.insert(global.lordofwar.contracts, {good=goodToOrder,quantity=quantityToOrder,timer=timerToOrder})
+			table.insert(global.lordofwar.contracts, {good=goodToOrder,quantity=quantityToOrder,timer=timerToOrder,value=valueToOrder})
 			-- set requester slots
 			for k,forceName in pairs(global.lordofwar.exportWarehouses) do
 				for i,entity in pairs(global.lordofwar.exportWarehouses[k]) do
@@ -100,11 +105,12 @@ function completeContract(forceName,key)
 	-- remove the contract
 	local quantity = global.lordofwar.contracts[key].quantity -- store quantity before destroying
 	local good = global.lordofwar.contracts[key].good
+	local value = global.lordofwar.contracts[key].value
     table.remove( global.lordofwar.contracts, key)
 	--game.players[1].print(quantity)
 	-- increase credits
 	global.lordofwar.credits[forceName] = global.lordofwar.credits[forceName] or 0
-	global.lordofwar.credits[forceName] = global.lordofwar.credits[forceName] + quantity*global.lordofwar.goods[good]
+	global.lordofwar.credits[forceName] = global.lordofwar.credits[forceName] + value
 	-- remove the items
 	for k,v in pairs(global.lordofwar.exportWarehouses[forceName])do -- all exportWarehouses
 		if quantity > 0 then
@@ -117,7 +123,10 @@ function completeContract(forceName,key)
 			entity.clear_request_slot(getMatchingRequestSlotIndex(entity,good))			
 		end
 	end
-
+	-- bonus for completing
+	global.lordofwar.valueMultiplier = global.lordofwar.valueMultiplier*1.01
+	global.lordofwar.quantityMultiplier = global.lordofwar.quantityMultiplier*1.05
+	
 	--game.players[1].print("completeContract end")
 end
 
@@ -134,5 +143,9 @@ function expireContract(key)
 			entity.clear_request_slot(getMatchingRequestSlotIndex(entity,good))			
 		end
 	end
+	-- punish for not completing
+	global.lordofwar.valueMultiplier = global.lordofwar.valueMultiplier*0.99
+	global.lordofwar.quantityMultiplier = global.lordofwar.quantityMultiplier*0.95
+	
 --	game.players[1].print("expired contracts end")
 end

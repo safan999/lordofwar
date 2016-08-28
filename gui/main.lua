@@ -103,7 +103,7 @@ function updateGUI(player)
 		contentTable["available" .. k].caption = getInventory(force.name,v.good) --available
 		contentTable["time" .. k].caption = timeCount((v.timer - game.tick)/60) --time in seconds
 		contentTable["requested" .. k].caption = v.quantity -- requested
-		contentTable["value" .. k].caption = v.quantity*global.lordofwar.goods[v.good] -- value
+		contentTable["value" .. k].caption = v.value -- value
 	end
 	
 	
