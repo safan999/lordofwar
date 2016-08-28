@@ -58,6 +58,7 @@ script.on_event(defines.events.on_tick, function(event)
 			if v == 1 then
 --				game.players[1].print("4")
 				updateGUI(game.players[k])
+				updateGUItop(game.players[k])
 --				game.players[1].print("5")
 			end
 		end

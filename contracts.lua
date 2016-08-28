@@ -126,7 +126,6 @@ function completeContract(forceName,key)
 	-- bonus for completing
 	global.lordofwar.valueMultiplier = global.lordofwar.valueMultiplier*1.01
 	global.lordofwar.quantityMultiplier = global.lordofwar.quantityMultiplier*1.05
-	
 	--game.players[1].print("completeContract end")
 end
 

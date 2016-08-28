@@ -28,13 +28,12 @@ function createGUI(player, index)
         -- main frame
         local lordofwarFrame = player.gui[guiPos].add({type = "frame", name = "lordofwarFrame", direction = "vertical", style = "lv_frame"})        
         local titleFlow = lordofwarFrame.add({type = "flow", name = "titleFlow", direction = "horizontal"})
---		global.lordofwar.credits[player.force] = global.lordofwar.credits[player.force] or 0
         titleFlow.add({type = "button", name = "lordofwar-view-close", caption = "X" , style = "lv_button_close"})
         titleFlow.add({type = "label", name="titleLabel", style = "lv_title_label", caption = "Contracts Overview"})        
 
 		local informationFlow = lordofwarFrame.add({type = "flow", name = "informationFlow", direction = "horizontal"})
 		informationFlow.add({type = "label", name="creditHeader", style = "lv_info_label", caption = "credits: "})
-		informationFlow.add({type = "label", name="creditField", style = "lv_info_label", caption = global.lordofwar.credits[player.force.name] or "0"})
+		informationFlow.add({type = "label", name="creditField", style = "lv_info_label", caption = number_format(global.lordofwar.credits[player.force.name])})
 		informationFlow.add({type = "label", name="rankHeader", style = "lv_info_label", caption = "Rank: "})
 		informationFlow.add({type = "label", name="rankField", style = "lv_info_label", caption = {getRank(global.lordofwar.credits[player.force.name])}})
 		
@@ -57,7 +56,14 @@ function createGUI(player, index)
 			end
 		
         updateGUI(player)
+		
     end
+end
+
+function updateGUItop(player)
+	local informationFlow = player.gui["center"].lordofwarFrame["informationFlow"]
+	informationFlow["rankField"].caption = {getRank(global.lordofwar.credits[player.force.name])}
+	informationFlow["creditField"].caption = number_format(global.lordofwar.credits[player.force.name])
 end
 
 --- Show the GUI
@@ -159,3 +165,8 @@ function clearGUI(player, index)
 
 end
 
+function number_format(n) -- credit http://richard.warburton.it
+    if n == nil then return 0 end
+	local left,num,right = string.match(n,'^([^%d]*%d)(%d*)(.-)$')
+    return left..(num:reverse():gsub('(%d%d%d)','%1,'):reverse())..right
+end

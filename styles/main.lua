@@ -124,7 +124,7 @@ data.raw["gui-style"].default["lv_frame"] =
 {
     type = "frame_style",
     font = "font-m",
-    minimal_width = 740,
+    minimal_width = 600,
     top_padding = 2,
     right_padding = 2,
     bottom_padding = 10,
