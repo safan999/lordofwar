@@ -39,7 +39,7 @@ data:extend(
   }
 }
 )
-
+--[[
 --- Settings GUI
 data.raw["gui-style"].default["lv_settings_table"] =
 {
@@ -87,7 +87,7 @@ data.raw["gui-style"].default["lv_location_view"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/location.png",
+            filename = "__lordofwar__/graphics/location.png",
             priority = "extra-high-no-scale",
             width = 100,
             height = 100,
@@ -99,7 +99,7 @@ data.raw["gui-style"].default["lv_location_view"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/location-hover.png",
+            filename = "__lordofwar__/graphics/location-hover.png",
             priority = "extra-high-no-scale",
             width = 100,
             height = 100,
@@ -111,14 +111,14 @@ data.raw["gui-style"].default["lv_location_view"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/location-hover.png",
+            filename = "__lordofwar__/graphics/location-hover.png",
             width = 100,
             height = 100,
             x = 0
         }
     }
 }
-
+]]--
 --- Main GUI
 data.raw["gui-style"].default["lv_frame"] =
 {
@@ -372,7 +372,7 @@ data.raw["gui-style"].default["lv_button"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -384,7 +384,7 @@ data.raw["gui-style"].default["lv_button"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -396,7 +396,7 @@ data.raw["gui-style"].default["lv_button"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -414,7 +414,7 @@ data.raw["gui-style"].default["lv_button_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -426,7 +426,7 @@ data.raw["gui-style"].default["lv_button_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -438,7 +438,7 @@ data.raw["gui-style"].default["lv_button_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -526,7 +526,7 @@ data.raw["gui-style"].default["lv_button_close"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 16,
             height = 16,
@@ -538,7 +538,7 @@ data.raw["gui-style"].default["lv_button_close"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 16,
             height = 16,
@@ -550,7 +550,7 @@ data.raw["gui-style"].default["lv_button_close"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 16,
             height = 16,
             x = 0
@@ -576,7 +576,7 @@ data.raw["gui-style"].default["lv_button_info"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -589,7 +589,7 @@ data.raw["gui-style"].default["lv_button_info"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -602,7 +602,7 @@ data.raw["gui-style"].default["lv_button_info"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 357,
@@ -628,7 +628,7 @@ data.raw["gui-style"].default["lv_button_location"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -641,7 +641,7 @@ data.raw["gui-style"].default["lv_button_location"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -654,7 +654,7 @@ data.raw["gui-style"].default["lv_button_location"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 37,
@@ -680,7 +680,7 @@ data.raw["gui-style"].default["lv_button_teleport"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -693,7 +693,7 @@ data.raw["gui-style"].default["lv_button_teleport"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -706,7 +706,7 @@ data.raw["gui-style"].default["lv_button_teleport"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 165,
@@ -732,7 +732,7 @@ data.raw["gui-style"].default["lv_button_delete"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -745,7 +745,7 @@ data.raw["gui-style"].default["lv_button_delete"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -758,7 +758,7 @@ data.raw["gui-style"].default["lv_button_delete"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 101,
@@ -784,7 +784,7 @@ data.raw["gui-style"].default["lv_button_delete_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -797,7 +797,7 @@ data.raw["gui-style"].default["lv_button_delete_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -810,7 +810,7 @@ data.raw["gui-style"].default["lv_button_delete_selected"] =
         type = "monolith",
             monolith_image =
             {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 101,
@@ -836,7 +836,7 @@ data.raw["gui-style"].default["lv_button_up_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -849,7 +849,7 @@ data.raw["gui-style"].default["lv_button_up_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -862,7 +862,7 @@ data.raw["gui-style"].default["lv_button_up_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 325,
@@ -888,7 +888,7 @@ data.raw["gui-style"].default["lv_button_up_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -901,7 +901,7 @@ data.raw["gui-style"].default["lv_button_up_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -914,7 +914,7 @@ data.raw["gui-style"].default["lv_button_up_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 325,
@@ -940,7 +940,7 @@ data.raw["gui-style"].default["lv_button_up_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -953,7 +953,7 @@ data.raw["gui-style"].default["lv_button_up_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -966,7 +966,7 @@ data.raw["gui-style"].default["lv_button_up_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 325,
@@ -993,7 +993,7 @@ data.raw["gui-style"].default["lv_button_up_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -1006,7 +1006,7 @@ data.raw["gui-style"].default["lv_button_up_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -1019,7 +1019,7 @@ data.raw["gui-style"].default["lv_button_up_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 325,
@@ -1047,7 +1047,7 @@ data.raw["gui-style"].default["lv_button_name"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1059,7 +1059,7 @@ data.raw["gui-style"].default["lv_button_name"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1071,7 +1071,7 @@ data.raw["gui-style"].default["lv_button_name"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -1089,7 +1089,7 @@ data.raw["gui-style"].default["lv_button_name_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1101,7 +1101,7 @@ data.raw["gui-style"].default["lv_button_name_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1113,7 +1113,7 @@ data.raw["gui-style"].default["lv_button_name_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -1139,7 +1139,7 @@ data.raw["gui-style"].default["lv_button_total"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1151,7 +1151,7 @@ data.raw["gui-style"].default["lv_button_total"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1163,7 +1163,7 @@ data.raw["gui-style"].default["lv_button_total"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -1181,7 +1181,7 @@ data.raw["gui-style"].default["lv_button_total_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1193,7 +1193,7 @@ data.raw["gui-style"].default["lv_button_total_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1205,7 +1205,7 @@ data.raw["gui-style"].default["lv_button_total_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0
@@ -1380,7 +1380,7 @@ data.raw["gui-style"].default["lv_button_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1392,7 +1392,7 @@ data.raw["gui-style"].default["lv_button_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1404,7 +1404,7 @@ data.raw["gui-style"].default["lv_button_apc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 64
@@ -1421,7 +1421,7 @@ data.raw["gui-style"].default["lv_button_apc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1433,7 +1433,7 @@ data.raw["gui-style"].default["lv_button_apc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1445,7 +1445,7 @@ data.raw["gui-style"].default["lv_button_apc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 64
@@ -1470,7 +1470,7 @@ data.raw["gui-style"].default["lv_button_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1482,7 +1482,7 @@ data.raw["gui-style"].default["lv_button_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1494,7 +1494,7 @@ data.raw["gui-style"].default["lv_button_ppc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 128
@@ -1511,7 +1511,7 @@ data.raw["gui-style"].default["lv_button_ppc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1523,7 +1523,7 @@ data.raw["gui-style"].default["lv_button_ppc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1535,7 +1535,7 @@ data.raw["gui-style"].default["lv_button_ppc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 128
@@ -1560,7 +1560,7 @@ data.raw["gui-style"].default["lv_button_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1572,7 +1572,7 @@ data.raw["gui-style"].default["lv_button_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1584,7 +1584,7 @@ data.raw["gui-style"].default["lv_button_sc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 192
@@ -1601,7 +1601,7 @@ data.raw["gui-style"].default["lv_button_sc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1613,7 +1613,7 @@ data.raw["gui-style"].default["lv_button_sc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1625,7 +1625,7 @@ data.raw["gui-style"].default["lv_button_sc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 192
@@ -1650,7 +1650,7 @@ data.raw["gui-style"].default["lv_button_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1662,7 +1662,7 @@ data.raw["gui-style"].default["lv_button_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1674,7 +1674,7 @@ data.raw["gui-style"].default["lv_button_rc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 256
@@ -1691,7 +1691,7 @@ data.raw["gui-style"].default["lv_button_rc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1703,7 +1703,7 @@ data.raw["gui-style"].default["lv_button_rc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1715,7 +1715,7 @@ data.raw["gui-style"].default["lv_button_rc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 256
@@ -1740,7 +1740,7 @@ data.raw["gui-style"].default["lv_button_woc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1753,7 +1753,7 @@ data.raw["gui-style"].default["lv_button_woc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1766,7 +1766,7 @@ data.raw["gui-style"].default["lv_button_woc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0,
@@ -1784,7 +1784,7 @@ data.raw["gui-style"].default["lv_button_woc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1797,7 +1797,7 @@ data.raw["gui-style"].default["lv_button_woc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1810,7 +1810,7 @@ data.raw["gui-style"].default["lv_button_woc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 0,
@@ -1836,7 +1836,7 @@ data.raw["gui-style"].default["lv_button_irc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1849,7 +1849,7 @@ data.raw["gui-style"].default["lv_button_irc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1862,7 +1862,7 @@ data.raw["gui-style"].default["lv_button_irc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 64,
@@ -1880,7 +1880,7 @@ data.raw["gui-style"].default["lv_button_irc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1893,7 +1893,7 @@ data.raw["gui-style"].default["lv_button_irc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1906,7 +1906,7 @@ data.raw["gui-style"].default["lv_button_irc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 64,
@@ -1932,7 +1932,7 @@ data.raw["gui-style"].default["lv_button_stc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1945,7 +1945,7 @@ data.raw["gui-style"].default["lv_button_stc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1958,7 +1958,7 @@ data.raw["gui-style"].default["lv_button_stc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 128,
@@ -1976,7 +1976,7 @@ data.raw["gui-style"].default["lv_button_stc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -1989,7 +1989,7 @@ data.raw["gui-style"].default["lv_button_stc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2002,7 +2002,7 @@ data.raw["gui-style"].default["lv_button_stc_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 128,
@@ -2028,7 +2028,7 @@ data.raw["gui-style"].default["lv_button_log"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2041,7 +2041,7 @@ data.raw["gui-style"].default["lv_button_log"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2054,7 +2054,7 @@ data.raw["gui-style"].default["lv_button_log"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 160,
@@ -2072,7 +2072,7 @@ data.raw["gui-style"].default["lv_button_log_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2085,7 +2085,7 @@ data.raw["gui-style"].default["lv_button_log_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2098,7 +2098,7 @@ data.raw["gui-style"].default["lv_button_log_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 128,
@@ -2124,7 +2124,7 @@ data.raw["gui-style"].default["lv_button_con"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2137,7 +2137,7 @@ data.raw["gui-style"].default["lv_button_con"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2150,7 +2150,7 @@ data.raw["gui-style"].default["lv_button_con"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 224,
@@ -2168,7 +2168,7 @@ data.raw["gui-style"].default["lv_button_con_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2181,7 +2181,7 @@ data.raw["gui-style"].default["lv_button_con_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2194,7 +2194,7 @@ data.raw["gui-style"].default["lv_button_con_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 192,
@@ -2220,7 +2220,7 @@ data.raw["gui-style"].default["lv_button_port"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2233,7 +2233,7 @@ data.raw["gui-style"].default["lv_button_port"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2246,7 +2246,7 @@ data.raw["gui-style"].default["lv_button_port"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 288,
@@ -2264,7 +2264,7 @@ data.raw["gui-style"].default["lv_button_port_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2277,7 +2277,7 @@ data.raw["gui-style"].default["lv_button_port_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 32,
             height = 32,
@@ -2290,7 +2290,7 @@ data.raw["gui-style"].default["lv_button_port_selected"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 32,
             height = 32,
             x = 256,
@@ -2317,7 +2317,7 @@ data.raw["gui-style"].default["lv_button_edit"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -2330,7 +2330,7 @@ data.raw["gui-style"].default["lv_button_edit"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -2343,7 +2343,7 @@ data.raw["gui-style"].default["lv_button_edit"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 37,
@@ -2370,7 +2370,7 @@ data.raw["gui-style"].default["lv_button_confirm"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -2383,7 +2383,7 @@ data.raw["gui-style"].default["lv_button_confirm"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 22,
             height = 23,
@@ -2396,7 +2396,7 @@ data.raw["gui-style"].default["lv_button_confirm"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             width = 22,
             height = 23,
             x = 101,
@@ -2430,7 +2430,7 @@ data.raw["gui-style"].default["lv_sort_desc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 14,
             height = 14,
@@ -2456,7 +2456,7 @@ data.raw["gui-style"].default["lv_sort_asc"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 14,
             height = 14,
@@ -2482,7 +2482,7 @@ data.raw["gui-style"].default["lv_sort"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 14,
             height = 14,
@@ -2508,7 +2508,7 @@ data.raw["gui-style"].default["lv_sort_holder"] =
         type = "monolith",
         monolith_image =
         {
-            filename = "__advanced-logistics-system__/graphics/gui.png",
+            filename = "__lordofwar__/graphics/gui.png",
             priority = "extra-high-no-scale",
             width = 16,
             height = 32,
@@ -2529,7 +2529,7 @@ data.raw["gui-style"].default["item-icon-style"] =
     scalable = false,
     default_background =
     {
-        filename = "__advanced-logistics-system__/graphics/gui.png",
+        filename = "__lordofwar__/graphics/gui.png",
         priority = "extra-high-no-scale",
         width = 32,
         height = 32,
@@ -2537,7 +2537,7 @@ data.raw["gui-style"].default["item-icon-style"] =
     },
     hovered_background =
     {
-        filename = "__advanced-logistics-system__/graphics/gui.png",
+        filename = "__lordofwar__/graphics/gui.png",
         priority = "extra-high-no-scale",
         width = 32,
         height = 32,
@@ -2545,7 +2545,7 @@ data.raw["gui-style"].default["item-icon-style"] =
     },
     clicked_background =
     {
-        filename = "__advanced-logistics-system__/graphics/gui.png",
+        filename = "__lordofwar__/graphics/gui.png",
         width = 32,
         height = 32,
         x = 32
